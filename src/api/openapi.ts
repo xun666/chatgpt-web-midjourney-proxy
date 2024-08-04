@@ -271,7 +271,7 @@ export const getSystemMessage = (uuid?:number )=>{
     }
     if(  sysTem ) return sysTem;
     let model= gptConfigStore.myData.model?gptConfigStore.myData.model: "gpt-3.5-turbo";
-    let producer= 'You are ChatGPT, a large language model trained by OpenAI.'
+    let producer= 'You are a good and patient assistant.'
     if(model.includes('claude')) producer=  'You are Claude, a large language model trained by Anthropic.';
     if(model.includes('gemini')) producer=  'You are Gemini, a large language model trained by Google.';
     //用户自定义系统
