@@ -17,7 +17,7 @@ export function defaultSetting(): UserState {
     userInfo: {
       avatar: 'https://lsky.ydxs.xyz:11301/i/2024/08/04/66af32ed7f570.jpg',
       name:  t('mjset.sysname'),//'Y_CHAT',
-      description: 'Star on <a href="https://github.com/Dooy/chatgpt-web-midjourney-proxy" class="text-blue-500" target="_blank" >GitHub</a>',
+      description: '翼动芯生 CHAT站',
     },
   }
 }
